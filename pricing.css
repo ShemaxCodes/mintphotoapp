@@ -8,3 +8,22 @@ h1 {
     text-align: center;
     color: #ffffff;
 }
+h3 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+}
+.pricebox1, .pricebox2, .pricebox3 {
+    display: inline-block;
+    box-sizing: content-box;
+    width: 160px;
+    height: 250px;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    background: rgb(161,159,203);
+    background: linear-gradient(rgba(161,159,203,1) 6%, rgba(186,186,201,1) 35%, rgba(245,250,251,1) 90%);
+}
