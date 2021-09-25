@@ -1,0 +1,33 @@
+body {
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: star-rating;
+    src : url('https://fontawesome.com/v5.15/icons/user-circle?style=regular');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.avatar {
+    content: url("user-circle-regular.svg");
+    height: 50px;
+    width: 50px;
+}
+
+.review_box {
+    background-color: #FFD36A;
+    border-style: solid;
+
+}
+
+.review_heading {
+    font-size: 1.5em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.far fa-user-circle {
+}
