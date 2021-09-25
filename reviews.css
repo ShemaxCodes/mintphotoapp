@@ -11,23 +11,45 @@ body {
     font-style: normal;
 }
 
+h1{
+    color: #000000;
+}
+.review_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.review_box {
+        background-color: #FFD36A;
+        border-style: none;
+        border-radius: 8px;
+        width: 30%;
+        margin: auto;
+}
+
 .avatar {
     content: url("user-circle-regular.svg");
     height: 50px;
     width: 50px;
-}
-
-.review_box {
-    background-color: #FFD36A;
-    border-style: solid;
-
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .review_heading {
-    font-size: 1.5em;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
-.far fa-user-circle {
+
+
+.checked {
+    color: white;
+  }
+
+
+.review_text {
+    padding: 10px;
 }
