@@ -1,70 +1,56 @@
-body {
-    margin: 10px;
-    padding: 20px;
-    background-color: #FFFFFF;
-}
-
-@font-face {
-    font-family: star-rating;
-    src : url('https://fontawesome.com/v5.15/icons/user-circle?style=regular');
-    font-weight: normal;
-    font-style: normal;
-}
-
-h1{
-    color: #000000;
-    text-align: center;
-    font-family: 'Poppins', 'sans-serif';
-}
-.review_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.review_box {
-        background-color: #FFD36A;
-        border-style: none;
-        border-radius: 8px;
-        width: 30%;
+* {
+    box-sizing: border-box;
+    }
+    
+    h1{
+        color: #000000;
+        text-align: center;
+        font-family: 'Poppins', 'sans-serif';
+    }
+    .review_section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .review_box {
+            background-color: #FFD36A;
+            border-style: none;
+            border-radius: 8px;
+            width: 30%;
+            height: 20%;
+            margin: 50px;
+    }
+    
+    h2 {
+        text-align: center;
+        display: flexbox;
+        padding-right: 40px;
+    }
+    
+    .checked {
+        color: white;
+      }
+    
+    
+    .review_text {
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .stars {
+        text-align: center;
+        padding-right: 40px;
+    }
+    
+    .avatar {
+        content: url("user-circle-regular.svg");
+        float: left;
         height: 20%;
-        margin: 50px;
-}
-
-.avatar {
-    content: url("user-circle-regular.svg");
-    float:left;
-    height: 50px;
-    width: 50px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Poppins', 'sans-serif';
-}
-
-.review_heading {
-    height: 50px;
-    width: 50px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
-
-.stars {
-    padding-left: 10px;
-}
-
-.checked {
-    color: white;
-  }
-
-
-.review_text {
-    padding: 10px;
-    font-family: 'Open Sans', sans-serif;
-}
+        width: 20%;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
 
 .back_button {
     text-align: center;
